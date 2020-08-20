@@ -43,15 +43,15 @@ class SignIn extends React.Component {
             value={this.state.email}
             //label='email'
             required
-          />
-         
+          />   
+                
          
           <FormInput
             name='password'
             type='password'
             value={this.state.password}
             handleChange={this.handleChange}
-            //label='password'
+           // label='password'
             required
           />   
            <div className='buttons'>              
